@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Mono:wght@500&display=swap');
+
+body{
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
+.container{
+    border: solid 1px;
+    width: 350px;
+    height: 550px;
+    margin: auto;
+    margin-top: 10%;
+    background-color: gray;
+    color: white;
+}
+
+.display{
+    border: solid 1px;
+    height: 30%;
+    font-size: 40px;
+}
+
+.resultado{
+    background-color: aqua;
+    height: 50%;
+    width: 50%;
+    margin-top: 25%;
+    margin-left: 55%;
+}
+
+.key{
+    display: flex;
+    height: 70%;
+    width: 100%;
+}
+
+#buttons{
+    text-align: center;
+    padding: 51.5px 22.5px 51.5px 22.5px;
+    cursor: pointer;
+    background-color: rgb(51, 51, 51);
+    border: solid 1px white;
+}
+
+.buttonEqual{
+    height: 384px;
+    background-color: blue;
+    color: white;
+}
+
+.buttonReset{
+    background-color: red;
+}
